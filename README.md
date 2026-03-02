@@ -68,7 +68,19 @@ yay -S ytm-player-git
 
 Or with any other AUR helper. Package: [ytm-player-git](https://aur.archlinux.org/packages/ytm-player-git)
 
-#### From source (all platforms)
+#### PyPI (all platforms)
+
+```bash
+pip install ytm-player
+```
+
+Or with [pipx](https://pipx.pypa.io/) for isolated installs:
+
+```bash
+pipx install ytm-player
+```
+
+#### From source
 
 ```bash
 git clone https://github.com/peternaame-boop/ytm-player.git
